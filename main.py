@@ -9,7 +9,7 @@ def get_book_text(path):
 
 def main():
     if len(sys.argv) != 2:
-        return sys.exit(1)
+        return sys.exit("Usage: python3 main.py <path_to_book>")
     
     book_path = sys.argv[1]
     print("============ BOOKBOT ============")
